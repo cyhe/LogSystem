@@ -1,0 +1,21 @@
+2018/07/18 14:15:39.209 [D] init logger succ
+2018/07/18 14:15:39.217 [D] resp from etcd:[key:"/Users/esirnus/go/src/logSystem/conf/192.168.31.62" create_revision:12 mod_revision:25 version:14 value:"[{\"log_path\":\"/Users/esirnus/go/src/logSystem/logs/logagent.log\",\"topic\":\"nginx_log\"},{\"log_path\":\"/Users/esirnus/Documents/logs/error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/07/18 14:15:39.218 [D] log congig is [{/Users/esirnus/go/src/logSystem/logs/logagent.log nginx_log} {/Users/esirnus/Documents/logs/error.log nginx_log_err}]
+2018/07/18 14:15:39.218 [D] init etcd succ
+2018/07/18 14:15:39.218 [D] init tailf succ
+2018/07/18 14:15:39.218 [D] begin watch etcdkey : /Users/esirnus/go/src/logSystem/conf/192.168.31.62
+2018/07/18 14:15:39.245 [D] init kafka succ
+2018/07/18 14:15:39.245 [D] init kafka succ
+2018/07/18 14:15:39.245 [D] initalize all succ
+2018/07/18 14:20:26.039 [D] PUT "/Users/esirnus/go/src/logSystem/conf/192.168.31.62" : "[{\"log_path\":\"/usr/local/var/log/nginx/access.log\",\"topic\":\"nginx_log\"},{\"log_path\":\"/Users/esirnus/Documents/logs/error.log\",\"topic\":\"nginx_log_err\"}]"
+
+2018/07/18 14:20:26.039 [W] tail obj will exited, conf:{/Users/esirnus/go/src/logSystem/logs/logagent.log nginx_log}
+2018/07/18 14:25:32.702 [D] init logger succ
+2018/07/18 14:25:32.714 [D] resp from etcd:[key:"/Users/esirnus/go/src/logSystem/conf/192.168.31.62" create_revision:12 mod_revision:27 version:15 value:"[{\"log_path\":\"/usr/local/var/log/nginx/access.log\",\"topic\":\"nginx_log\"},{\"log_path\":\"/Users/esirnus/Documents/logs/error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/07/18 14:25:32.714 [D] log congig is [{/usr/local/var/log/nginx/access.log nginx_log} {/Users/esirnus/Documents/logs/error.log nginx_log_err}]
+2018/07/18 14:25:32.715 [D] init etcd succ
+2018/07/18 14:25:32.715 [D] init tailf succ
+2018/07/18 14:25:32.715 [D] begin watch etcdkey : /Users/esirnus/go/src/logSystem/conf/192.168.31.62
+2018/07/18 14:25:32.732 [D] init kafka succ
+2018/07/18 14:25:32.732 [D] init kafka succ
+2018/07/18 14:25:32.732 [D] initalize all succ
